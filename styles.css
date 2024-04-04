@@ -19,16 +19,24 @@
 
 /* header */
 .logo{
-    margin: 30px 30px ;
+    margin: 30px 50px ;
 }
 .header{
     background:var(--header);
 }
 
 .menu-icon{
-        width: 50px;
-        background-color: var(--right-col);
+        width: 30px;
 }
+.fixed-menu {
+    position: fixed;
+    right: 140;
+    left:;
+    background-color: rgb(229, 175, 229);
+    border: 1px solid rgb(226, 116, 226);
+    border-radius: 10px; 
+}
+
 
 .loc, .call, .mail{
     width: 30px;
@@ -202,7 +210,11 @@ font-size: 17px;
             }
             .contact-details{
                 text-align: left;
+                margin-left: 50px;
                 padding-bottom: 20px;
+            }
+            .icon{
+                margin-bottom: 10px;
             }
             .left-col{
                 padding: 70px 100px 40px 100px;
