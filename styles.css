@@ -320,9 +320,9 @@ font-size: 17px;
                 padding: 50px 20px 40px 30px;
         }
         .toolset {
-            width: 20px;
-            height: 20px;
-            margin: 20px 30px;
+            width: 30px;
+            height: 30px;
+            margin: 20px 35px;
         }
         .tool-names p{
             display: inline-block;
