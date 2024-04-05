@@ -320,8 +320,25 @@ font-size: 17px;
             .left-col{
                 padding: 50px 20px 40px 30px;
         }
+        .toolset {
+            min-width: 20px;
+            min-height: 20px;
+            margin: 20px 30px;
+        }
+        .tool-names p{
+            display: inline-block;
+            margin-right: 10px;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+        .tool-names-too p{
+            display: inline-block;
+            margin-right: 19px;
+            margin-left: 15px;
+            font-size: 16px;
+        }
         .fixed-menu{
-            transform: translateX(20em);
+            transform: translateX(15em);
         }
         .contact-details{
             text-align: left;
@@ -332,23 +349,3 @@ font-size: 17px;
             padding-right: 10px;
         }
     }
-
-    @media screen and (max-width: 360px) {
-        .right-col{
-            padding: 50px 20px 0px 30px;
-        }
-        .left-col{
-            padding: 50px 20px 40px 30px;
-    }
-    .fixed-menu{
-        transform: translateX(20em);
-    }
-    .contact-details{
-        text-align: left;
-        padding-top: 1px;
-        padding-right: 50px;
-    }
-    .icon{
-        padding-right: 10px;
-    }
-}
