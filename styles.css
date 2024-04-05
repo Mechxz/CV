@@ -77,7 +77,7 @@ hr{
 
 /* left col content*/
 .left-col{
-    padding: 70px 50px 40px 30px;
+    padding: 70px 50px 40px 40px;
     background-color: var(--left-col);
     }
     .left-col p{
@@ -322,7 +322,7 @@ font-size: 17px;
         .toolset {
             width: 30px;
             height: 30px;
-            margin: 20px 35px;
+            margin: 20px 30px;
         }
         .tool-names p{
             display: inline-block;
