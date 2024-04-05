@@ -19,8 +19,9 @@
 
 /* header */
 .logo{
-    padding: 30px 50px ;
+padding: 30px 30px ;
 }
+
 .header{
     background:var(--header);
 }
@@ -210,12 +211,18 @@ font-size: 17px;
             .main {
                 flex-direction: column-reverse;
             }
+            .logo{
+                padding: 30px 80px;
+            }
             .contact-details{
                 text-align: left;
                 margin-left: 50px;
+                padding-top: 50px;
                 padding-bottom: 20px;
             }
+            }
             .icon{
+                margin-top: 10px;
                 margin-bottom: 10px;
             }
             .left-col{
@@ -319,6 +326,29 @@ font-size: 17px;
         .contact-details{
             text-align: left;
             padding-top: 1px;
-            padding-right: 80px;
+            padding-right: 50px;
+        }
+        .icon{
+            padding-right: 10px;
         }
     }
+
+    @media screen and (max-width: 360px) {
+        .right-col{
+            padding: 50px 20px 0px 30px;
+        }
+        .left-col{
+            padding: 50px 20px 40px 30px;
+    }
+    .fixed-menu{
+        transform: translateX(20em);
+    }
+    .contact-details{
+        text-align: left;
+        padding-top: 1px;
+        padding-right: 50px;
+    }
+    .icon{
+        padding-right: 10px;
+    }
+}
