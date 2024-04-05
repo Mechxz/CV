@@ -19,7 +19,7 @@
 
 /* header */
 .logo{
-    margin: 30px 50px ;
+    padding: 30px 50px ;
 }
 .header{
     background:var(--header);
@@ -30,13 +30,11 @@
 }
 .fixed-menu {
     position: fixed;
-    right: 140;
-    left:;
+    transform: translateX(39em);
     background-color: rgb(229, 175, 229);
     border: 1px solid rgb(226, 116, 226);
     border-radius: 10px; 
 }
-
 
 .loc, .call, .mail{
     width: 30px;
@@ -247,6 +245,9 @@ font-size: 17px;
 
 /* third small */
         @media screen and (max-width: 767px) {
+            .fixed-menu{
+                transform: translateX(28em);
+            }
             .toolset {
                 width: 60px;
                 height: 60px;
