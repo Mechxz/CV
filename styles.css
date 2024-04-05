@@ -67,9 +67,12 @@ h4{
     color: var(--white);
 }
 
-h5{
+h6{
     font-family: var(--secondary-font);
     color: var(--darkgreen);
+}
+.year-level h6{
+    margin-bottom: 0.5px;
 }
 
 hr{
@@ -86,27 +89,33 @@ hr{
         color: var(--black);
     }
     .rounded-circle{
-        float: left;
-        width: 50px;
-        height: 50px;
-        margin-right: 10px;
+        max-width: 60px;
+        min-height: 10px;
+        margin-top: 10px;
     }
     /* education */
     /* school name */
+    .education{
+        margin-bottom: 50px;
+    }
     .year-level{
-        font-size: 16px;
+        font-size: 13px;
         font-family: var(--secondary-font);
-        line-height: 150%;
         color:var(--black);
+        padding-left: 10px;
     }
     /* school year */
     .year-range{
         font-size: 13px;
         font-family: var(--secondary-font);
         color: var(--black);
-        margin-left: 60px;
+
     }
     /* achievements */
+    .achievements{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     .a-details{
         display: flex;
     }
@@ -139,6 +148,14 @@ hr{
         font-family: var(--secondary-font);
         color: black;
         font-size: 17px;
+    }
+
+    .objectives{
+        margin-bottom: 50px;
+    }
+    .skillset{
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     .title{
