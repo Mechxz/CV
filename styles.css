@@ -33,7 +33,8 @@
     transform: translateX(39em);
     background-color: rgb(229, 175, 229);
     border: 1px solid rgb(226, 116, 226);
-    border-radius: 10px; 
+    border-radius: 10px;
+    opacity: 30%;
 }
 
 .loc, .call, .mail{
@@ -176,6 +177,9 @@ font-size: 17px;
 /* responsive era */
 /* first small */
         @media screen and (max-width: 1196px) {
+            .icon{
+                margin-bottom: 10px;
+            }
             .toolset {
                 width: 60px;
                 height: 60px;
@@ -272,7 +276,11 @@ font-size: 17px;
                 color: var(--white);
             }
         }
-        @media screen and (max-width: 545px) {
+/* fourth small */
+        @media screen and (max-width: 575px) {
+            .fixed-menu{
+                transform: translateX(30em);
+            }
             .toolset {
                 width: 50px;
                 height: 50px;
@@ -297,3 +305,20 @@ font-size: 17px;
                 color: var(--white);
             }
         }
+/* cellphone size */
+        @media screen and (max-width: 425px) {
+            .right-col{
+                padding: 50px 20px 0px 30px;
+            }
+            .left-col{
+                padding: 50px 20px 40px 30px;
+        }
+        .fixed-menu{
+            transform: translateX(20em);
+        }
+        .contact-details{
+            text-align: left;
+            padding-top: 1px;
+            padding-right: 80px;
+        }
+    }
