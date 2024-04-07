@@ -176,12 +176,12 @@ font-size: 17px;
     .toolset{
         width: 60px;
         height: 60px;
-        margin:20px 60px
+        margin:20px 60px;
     }
         .toolset:hover{
             transform: scale(1.1);
         }
-p{
+    .tool-set p{
     text-align: center;
 }
 /* end */
