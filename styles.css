@@ -113,7 +113,6 @@ hr{
         font-size: 13px;
         font-family: var(--secondary-font);
         color: var(--black);
-
     }
     /* achievements */
     .achievements{
@@ -190,26 +189,13 @@ font-size: 17px;
 /* responsive era */
 /* first small */
         @media screen and (max-width: 1196px) {
+            .logo{
+                padding: 30px 20px;
+            }
             .icon{
                 margin-bottom: 10px;
             }
-            .toolset {
-                width: 60px;
-                height: 60px;
-                margin: 20px 40px;
-            }
-            .tool-names p{
-                display: inline-block;
-                margin-right: 15px;
-                margin-left: 50px;
-                font-size: 16px;
-            }
-            .tool-names-too p{
-                display: inline-block;
-                margin-right: 20px;
-                margin-left: 40px;
-                font-size: 16px;
-            }
+            
             .ac-title{
                 font-family: var(--primary-font);
                 font-weight:800;
@@ -336,18 +322,6 @@ font-size: 17px;
             height: 30px;
             margin: 20px 30px;
         }
-        .tool-names p{
-            display: inline-block;
-            margin-right: 10px;
-            margin-left: 25px;
-            font-size: 16px;
-        }
-        .tool-names-too p{
-            display: inline-block;
-            margin-right: 19px;
-            margin-left: 15px;
-            font-size: 16px;
-        }
         .fixed-menu{
             transform: translateX(18em);
         }
@@ -358,5 +332,5 @@ font-size: 17px;
         }
         .icon{
             padding-right: 10px;
-        }
     }
+}
